@@ -1,26 +1,116 @@
 #offset-property {
-margin: 30px;
+  margin: 30px;
   padding: 5px;
   border: 1px solid black;
   outline: 3px solid red;
-  outline-offset: 20px
-  ;
+  outline-offset: 20px;
 }
 
 #offset-property2 {
- margin: 30px;
+  margin: 30px;
   padding: 5px;
-  background:yellow;
+  background: yellow;
   border: 1px solid black;
   outline: 3px solid red;
   outline-offset: 15px;
 }
 
 #offset-property3 {
-     margin: 30px;
+  margin: 30px;
   padding: 5px;
-  background:yellow;
+  background: yellow;
   border: 1px solid black;
   outline: 3px solid red;
   outline-offset: -5px;
+}
+
+#tf-color {
+  color: tomato
+}
+
+#tf-color2 {
+  background-color: black;
+  color: whitesmoke;
+}
+
+#Text-alignment1 {
+  text-align: left;
+}
+
+#Text-Alignment2 {
+  text-align: right;
+}
+
+#Text-Alignment3 {
+  text-align: center; 
+}
+#Text-Alignment4{
+  text-align: justify;
+}
+#TD {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+#TDE1 {
+  text-decoration: overline;
+}
+#TDE2 {
+text-decoration: line-through;
+}
+#TDE3 {
+text-decoration: underline;
+}
+#TDE4 {
+text-decoration:overline underline;
+}
+#SAS1 {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+#SAS2 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+#SAS3 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+#SAS4 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+#SAS5 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+#SAS6 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: crimson;
+}
+#STD1 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+#STD2 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+#STD3 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
+}
+#TSP1 {
+  text-decoration: underline;
+}
+#TSP2 {
+   text-decoration: underline red;
+}
+#TSP3 {
+text-decoration: underline red double;
+}
+#TSP4 {
+ text-decoration: underline red double 5px;
 }
