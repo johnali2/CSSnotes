@@ -120,3 +120,12 @@ text-decoration: underline red double;
 #CLH1 {
   line-height: 5 ;
 }
+#CLH2 {
+  word-spacing: 22;
+}
+#CTS {
+  text-shadow: 23px 4px;
+}
+#CTS1 {
+  text-shadow: 2px 4px red;
+}
